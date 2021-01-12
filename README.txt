@@ -1,0 +1,1 @@
+This is a introductory exercise for the Foundations curriculum on The Odin Project. The goal here is to familiarize myself with the inner workings of the web and make some fun stuff.
