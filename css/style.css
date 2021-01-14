@@ -20,6 +20,7 @@ body {
 .topnav--left a {
     padding: 10px;
     text-decoration: none;
+    color: rgb(124, 124, 124);
 }
 
 .topnav--right {
@@ -32,6 +33,7 @@ body {
 .topnav--right a {
     padding: 10px;
     text-decoration: none;
+    color: rgb(124, 124, 124);
 }
 
 a:hover {
