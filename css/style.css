@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+/* Top nav */
+
+.topnav {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    position: fixed;
+}
+
+.topnav--left {
+    justify-content: flex-start;
+    padding: 15px;
+}
+
+.topnav--left a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.topnav--right {
+    justify-content: flex-end;
+    padding: 15px;
+    width: 50%;
+    left: 50%;
+}
+
+.topnav--right a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+}
+
+#profile {
+    margin-bottom: 10px;
+    margin-right: 40px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid lightgrey;
+    position: relative;
+    bottom: 4px;
+}
+
+#apps {
+    position: relative;
+    bottom: 4px;
+    right: 4px;
+    padding: 8px;
+}
+
+/* Main grid */
+
+.grid {
+    position: relative;
+    top: 155px;
+    display: grid;
+    width: 100%;
+    grid-template-rows: auto 70px auto auto auto;
+    grid-row-gap: 10px;
+    justify-items: center;
+}
+
+.searchbar {
+    display: flex;    
+    border-radius: 50px;
+    width: 580px;
+    height: 45px;
+    border: 1px solid lightgrey;
+    margin-top: 19px;
+}
+
+.searchbar:hover {
+    border: 1px;
+    box-shadow: 0 4px 10px lightgrey;
+}
+
+#searchsvg {
+    flex-basis: 20px;
+    margin-left: 15px;
+}
+
+#searchfield {
+    flex: 4;
+}
+
+#micsvg {
+    flex-basis: 25px;
+    margin-right: 15px;
+}
+
+.searchbar input[type=search] {
+    margin: 0px 2px 0px 2px;
+    outline: none;
+    border: 0px;
+}
+
+.gsearch, .glucky {
+    padding: 10px;
+    margin: 14px;
+    border: 0px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+button:hover {
+    outline: 1px solid lightgrey;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+p {
+    position: relative;
+    font-size: 12px;
+    left: 70px;
+    margin-top: 10px;
+}
+
+p a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Footer */
+
+footer {
+    display: grid;
+    width: 100%;
+    grid-template-rows: 30px 30px;
+    position: absolute; 
+    bottom: 30px;
+}
+
+.firstfooter {
+    font-size: 15px;
+    border: 1px solid lightgrey;
+    padding: 20px;
+}
+
+.firstfooter a {
+    color: rgb(124, 124, 124);
+    text-decoration: none;
+    position: relative;
+    bottom: 6px;
+}
+
+.secondfooter {
+    font-size: 15px;
+    display: flex;
+    padding: 20px;
+}
+
+.secondfooter a {
+    color: rgb(124, 124, 124);
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    position: relative;
+    bottom: 12px;
+}
+
+.secondfooter--left {
+    position: relative;
+    left: -30px;
+}
+
+.secondfooter--right {
+    position: relative;
+    left: 58vw;
+}
